@@ -19,5 +19,15 @@
 			"Regulus\\ActivityLog\\": "src/",
 			"Regulus\\TetraText\\": "src/"
 		}
+	},
+	"extra":{
+		"laravel":{
+		    "providers":[
+			"Regulus\\ActivityLog\\ActivityLogServiceProvider"
+		    ],
+		    "aliases":{
+			"Activity": "Regulus\\ActivityLog\\Models\\Activity"
+		    }
+		}
 	}
 }
